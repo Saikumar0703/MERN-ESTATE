@@ -29,7 +29,7 @@ export default function SignIn() {
       
     seterror(null);
 
-   const res =await fetch('/api/auth/signup', {
+   const res =await fetch('/api/auth/signin', {
     method:"POST",
     headers:{
       "Content-Type" : "application/json",
